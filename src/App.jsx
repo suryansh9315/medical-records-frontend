@@ -8,8 +8,8 @@ export default function App() {
     <div className="">
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/register-hospital' element={<RegisterHospital />} />
+        {/* <Route path='/' element={<Home />} /> */}
+        <Route path='/' element={<RegisterHospital />} />
         <Route path='/register-doctor' element={<RegisterDoctor />} />
         <Route path='/register-patient' element={<RegisterPatient />} />
         <Route path='/add-patient-record' element={<AddPatientRecord />} />
