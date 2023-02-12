@@ -1,2 +1,6 @@
 export { default as Home } from './Home'
-export { default as Register } from './Register'
+export { default as RegisterDoctor } from './RegisterDoctor'
+export { default as RegisterHospital } from './RegisterHospital'
+export { default as RegisterPatient } from './RegisterPatient'
+export { default as AddPatientRecord } from './AddPatientRecord'
+export { default as ViewPatientRecords } from './ViewPatientRecords'
